@@ -12,7 +12,13 @@ iperf Version | Git branch | Tag name
 Since this is only designed for once off use, here's how to use it.
 
 ```
-docker run -it iitgdocker/iperf:latest -c iperf-server.example.com
+docker run -it iitgdocker/iperf -c iperf-server.example.com
+```
+
+# Getting Help
+
+```
+docker run -it iitgdocker/iperf --help
 ```
 
 # Environment Variables
